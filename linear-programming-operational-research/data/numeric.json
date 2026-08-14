@@ -1,0 +1,107 @@
+[
+ {
+  "id": 1,
+  "title": "Đơn hình gốc — ví dụ mẫu (đồ thị)",
+  "prompt": "Giải bằng phương pháp đồ thị: $\\max\\ g=x_1+2x_2$ với $x_1+x_2\\le100,\\ 2x_1+3x_2\\le240,\\ x_2\\le60,\\ x_1,x_2\\ge0$. Tìm $x_1^*, x_2^*, g^*$.",
+  "fields": [
+    {"name": "x1*", "expected": 30, "tol": 0.01},
+    {"name": "x2*", "expected": 60, "tol": 0.01},
+    {"name": "g*", "expected": 150, "tol": 0.01}
+  ],
+  "source": "QHTT_Chuong 3_Thuat toan don hinh goc.pdf, tr.6-19"
+ },
+ {
+  "id": 2,
+  "title": "Bảng đơn hình gộp — bài toán 6 biến",
+  "prompt": "Giải bằng đơn hình gốc (bảng gộp): $\\min f=5x_1+4x_2+5x_3+2x_4+x_5+3x_6$ với $2x_1+4x_2+3x_3+x_4=46,\\ 4x_1+2x_2+3x_3+x_5=38,\\ 3x_1+x_3+x_6=21$. Tìm $x_1^*,x_2^*,x_3^*,f^*$ (các biến còn lại bằng 0).",
+  "fields": [
+    {"name": "x1*", "expected": 7, "tol": 0.01},
+    {"name": "x2*", "expected": 5, "tol": 0.01},
+    {"name": "x3*", "expected": 0, "tol": 0.01},
+    {"name": "f*", "expected": 79, "tol": 0.01}
+  ],
+  "source": "Huong_Dan_Bang_Don_Hinh.md, ví dụ trang 60-61"
+ },
+ {
+  "id": 3,
+  "title": "Đơn hình hai pha — Ví dụ 1",
+  "prompt": "Giải bằng đơn hình hai pha: $f=2x_1+6x_2-5x_3+x_4+4x_5\\to\\min$ với $x_1-4x_2+2x_3-5x_4+9x_5=3,\\ x_2-3x_3+4x_4-5x_5=6,\\ x_2-x_3+x_4-x_5=1$. Tìm $x_4^*, x_5^*, f^*$.",
+  "fields": [
+    {"name": "x4*", "expected": 31, "tol": 0.01},
+    {"name": "x5*", "expected": 14, "tol": 0.01},
+    {"name": "f*", "expected": 7, "tol": 0.01}
+  ],
+  "source": "QHTT_Chuong 3_Thuat toan don hinh 2 pha.pdf, tr.11-14"
+ },
+ {
+  "id": 4,
+  "title": "Đơn hình hai pha — Ví dụ 2 (ràng buộc hỗn hợp dấu)",
+  "prompt": "Giải: $f=7x_1+x_2-4x_3\\to\\min$ với $-6x_1+4x_2+5x_3\\ge-20,\\ x_1+2x_2+x_3=8,\\ 3x_1-2x_2-x_3\\le-8,\\ x_j\\ge0$. Tìm $x_3^*, f^*$.",
+  "fields": [
+    {"name": "x3*", "expected": 8, "tol": 0.01},
+    {"name": "f*", "expected": -32, "tol": 0.01}
+  ],
+  "source": "QHTT_Chuong 3_Thuat toan don hinh 2 pha.pdf, tr.15-18"
+ },
+ {
+  "id": 5,
+  "title": "Đơn hình M — Ví dụ 1",
+  "prompt": "Giải bằng đơn hình M: $f=-3x_1+x_2+3x_3-x_4\\to\\min$ với $x_1+2x_2-x_3+x_4=2,\\ 2x_1-6x_2+3x_3+3x_4=9,\\ x_1-x_2+x_3-x_4=6$. Tìm $x_1^*,x_2^*,x_3^*,f^*$.",
+  "fields": [
+    {"name": "x1*", "expected": 3, "tol": 0.01},
+    {"name": "x2*", "expected": 2, "tol": 0.01},
+    {"name": "x3*", "expected": 5, "tol": 0.01},
+    {"name": "f*", "expected": 8, "tol": 0.01}
+  ],
+  "source": "QHTT_Chuong 3_Thuat toan don hinh M.pdf, tr.7-9"
+ },
+ {
+  "id": 6,
+  "title": "Bài toán đối ngẫu — kiểm tra cặp phương án tối ưu",
+  "prompt": "Cho $\\bar x=(0,0,9,0,8,6)$ và $\\bar y=(3,1,2)$ của bài toán $f(x)=6x_1+2x_2+7x_3+8x_4-5x_5-9x_6\\to\\min$ và bài toán đối ngẫu của nó. Tính $f(\\bar x)$ và $g(\\bar y)$ (theo Hệ quả 1, hai giá trị phải bằng nhau).",
+  "fields": [
+    {"name": "f(x̄)", "expected": -31, "tol": 0.01},
+    {"name": "g(ȳ)", "expected": -31, "tol": 0.01}
+  ],
+  "source": "QHTT_Chuong 4_Bai toan doi ngau.pdf, tr.23-24 (đã hiệu đính lỗi in ấn)"
+ },
+ {
+  "id": 7,
+  "title": "Bài toán vận tải — thuật toán thế vị (3×4)",
+  "prompt": "Giải bài toán vận tải: lượng phát $a=(100,400,230)$, lượng thu $b=(320,180,110,120)$. Tìm tổng chi phí tối ưu $f^*$.",
+  "fields": [
+    {"name": "f*", "expected": 2950, "tol": 1}
+  ],
+  "source": "Chuong_V_S5_Thuat_Toan_The_Vi_Vi_Du_Va_Bai_Tap.md, mục 2"
+ },
+ {
+  "id": 8,
+  "title": "Bài toán vận tải — Bài 6 (3×4, tự luyện)",
+  "prompt": "Giải bài toán vận tải: lượng phát $a=(90,100,110)$, lượng thu $b=(50,80,95,75)$, ma trận cước phí $c=\\begin{pmatrix}11&2&16&3\\\\5&10&6&8\\\\4&12&5&9\\end{pmatrix}$. Tìm tổng chi phí tối ưu $f^*$.",
+  "fields": [
+    {"name": "f*", "expected": 1420, "tol": 1}
+  ],
+  "source": "Chuong_V_S5_Thuat_Toan_The_Vi_Vi_Du_Va_Bai_Tap.md, Bài 6 + Phụ lục B (De_Thi_Mau_QHTT.md)"
+ },
+ {
+  "id": 9,
+  "title": "Đối ngẫu áp dụng — bài toán 1 ràng buộc",
+  "prompt": "Cho $P:\\min\\{2x_1+3x_2 : x_1+x_2\\ge4,\\ x_1,x_2\\ge0\\}$. Giải bài toán đối ngẫu $Q$ (1 biến $y_1$) rồi suy ra giá trị tối ưu $f^*=g^*$.",
+  "fields": [
+    {"name": "y1*", "expected": 2, "tol": 0.01},
+    {"name": "f* = g*", "expected": 8, "tol": 0.01}
+  ],
+  "source": "QHTT_MCQ_100.md, Câu 69-71"
+ },
+ {
+  "id": 10,
+  "title": "Đối ngẫu áp dụng — bài toán 2 ràng buộc",
+  "prompt": "Cho $\\max\\{5x_1+4x_2 : x_1\\le4,\\ x_2\\le3,\\ x_1,x_2\\ge0\\}$. Tìm $x_1^*,x_2^*$ và giá trị tối ưu $f^*$.",
+  "fields": [
+    {"name": "x1*", "expected": 4, "tol": 0.01},
+    {"name": "x2*", "expected": 3, "tol": 0.01},
+    {"name": "f*", "expected": 32, "tol": 0.01}
+  ],
+  "source": "QHTT_MCQ_100.md, Câu 72-73"
+ }
+]

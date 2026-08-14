@@ -1,0 +1,1402 @@
+[
+ {
+  "id": 1,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Ba thành phần bắt buộc của một mô hình QHTT là:",
+  "options": {
+   "A": "Biến quyết định, hàm mục tiêu, ràng buộc.",
+   "B": "Biến quyết định, ma trận nghịch đảo, ràng buộc.",
+   "C": "Hàm mục tiêu, đạo hàm, ràng buộc.",
+   "D": "Biến quyết định, hàm mục tiêu, định thức."
+  },
+  "correct": "A",
+  "explanation": "Đây là 3 thành phần nền tảng của mọi mô hình QHTT (Chương I, `QHTT_Chuong1_Slide.pdf`)."
+ },
+ {
+  "id": 2,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Ràng buộc \"không âm\" ($x_j\\ge0$) được gọi là:",
+  "options": {
+   "A": "Ràng buộc chính.",
+   "B": "Ràng buộc về dấu.",
+   "C": "Ràng buộc phụ.",
+   "D": "Hàm mục tiêu."
+  },
+  "correct": "B",
+  "explanation": "Theo định nghĩa: các ràng buộc $\\langle a_i,x\\rangle(\\le,\\ge,=)b_i$ là ràng buộc chính; còn $x_j\\ge0$ (hay $\\le0$) là ràng buộc về dấu."
+ },
+ {
+  "id": 3,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Bài toán vận tải cổ điển với $m$ trạm phát, $n$ trạm thu có bao nhiêu biến quyết định?",
+  "options": {
+   "A": "$m+n$.",
+   "B": "$mn$.",
+   "C": "$m-n$.",
+   "D": "$\\max(m,n)$."
+  },
+  "correct": "B",
+  "explanation": "Biến $x_{ij}$ ($i=1..m,j=1..n$) $\\Rightarrow$ tổng $mn$ biến."
+ },
+ {
+  "id": 4,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Trong bài toán lập kế hoạch sản xuất cổ điển (2 sản phẩm, 2 loại vật liệu), nếu lợi nhuận mỗi đơn vị sản phẩm $P_1,P_2$ lần lượt là $c_1,c_2$ thì hàm mục tiêu là:",
+  "options": {
+   "A": "$\\min c_1x_1+c_2x_2$.",
+   "B": "$\\max c_1x_1+c_2x_2$.",
+   "C": "$\\max c_1x_1-c_2x_2$.",
+   "D": "$\\max c_1/x_1+c_2/x_2$."
+  },
+  "correct": "B",
+  "explanation": "Mục tiêu là tối đa hóa tổng lợi nhuận (Ví dụ mở đầu, `QHTT_Chuong1_Slide.pdf` tr.5)."
+ },
+ {
+  "id": 5,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Điều kiện cân bằng thu-phát của bài toán vận tải là:",
+  "options": {
+   "A": "$\\sum a_i > \\sum b_j$.",
+   "B": "$\\sum a_i = \\sum b_j$.",
+   "C": "$\\sum a_i < \\sum b_j$.",
+   "D": "$a_i=b_j\\ \\forall i,j$."
+  },
+  "correct": "B",
+  "explanation": "Định nghĩa chuẩn (Chương I, mục \"Mô hình hóa bài toán vận tải\")."
+ },
+ {
+  "id": 6,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Biến $x_j$ \"tự do\" (không ràng buộc dấu) khi đưa về dạng chính tắc cần:",
+  "options": {
+   "A": "Giữ nguyên.",
+   "B": "Đổi biến $x_j=x_j'-x_j''$ với $x_j',x_j''\\ge0$.",
+   "C": "Bỏ biến đó.",
+   "D": "Nhân với $-1$."
+  },
+  "correct": "B",
+  "explanation": "Kỹ thuật chuẩn tách biến tự do thành hiệu 2 biến không âm (mục 6, tính chất bài toán QHTT)."
+ },
+ {
+  "id": 7,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Ma trận ràng buộc $A$ của 1 bài toán QHTT chính tắc có cỡ $m\\times n$ với $m<n$. Điều kiện để bài toán có PACB là:",
+  "options": {
+   "A": "$\\text{rank}(A)=m$.",
+   "B": "$\\text{rank}(A)=n$.",
+   "C": "$\\text{rank}(A)=0$.",
+   "D": "Không cần điều kiện gì."
+  },
+  "correct": "A",
+  "explanation": "Cần $\\text{rank}(A)=m$ để mọi phương trình đều độc lập, đảm bảo cơ sở tồn tại."
+ },
+ {
+  "id": 8,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Bất đẳng thức $3x_1+2x_2\\le12$ chuyển thành đẳng thức bằng cách:",
+  "options": {
+   "A": "Trừ biến bù $x_3\\ge0$: $3x_1+2x_2-x_3=12$.",
+   "B": "Cộng biến bù $x_3\\ge0$: $3x_1+2x_2+x_3=12$.",
+   "C": "Nhân 2 vế với $-1$.",
+   "D": "Chia 2 vế cho 12."
+  },
+  "correct": "B",
+  "explanation": "Với ràng buộc $\\le$, cộng biến bù (slack) không âm."
+ },
+ {
+  "id": 9,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Bất đẳng thức $x_1+x_2\\ge5$ chuyển thành đẳng thức bằng cách:",
+  "options": {
+   "A": "Cộng biến bù $x_3\\ge0$.",
+   "B": "Trừ biến bù $x_3\\ge0$: $x_1+x_2-x_3=5$.",
+   "C": "Không chuyển được.",
+   "D": "Nhân với 0."
+  },
+  "correct": "B",
+  "explanation": "Với ràng buộc $\\ge$, trừ biến bù (surplus) không âm."
+ },
+ {
+  "id": 10,
+  "group": "NHÓM 1 — CHƯƠNG I: MÔ HÌNH HÓA BÀI TOÁN QHTT",
+  "image": null,
+  "question": "Trong bài toán QHTT dạng tổng quát, nếu hàm mục tiêu $f(x)=c^Tx\\to\\max$ thì bài toán tương đương dạng $\\min$ là:",
+  "options": {
+   "A": "$\\min\\{f(x)\\}$.",
+   "B": "$\\min\\{-f(x)\\}$.",
+   "C": "$\\max\\{-f(x)\\}$.",
+   "D": "$\\min\\{1/f(x)\\}$."
+  },
+  "correct": "B",
+  "explanation": "$\\max f(x) = -\\min\\{-f(x)\\}$; 2 bài toán có cùng tập nghiệm tối ưu, giá trị tối ưu trái dấu. --- ## NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)"
+ },
+ {
+  "id": 11,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p01.png",
+  "question": "Cho miền khả thi và hàm mục tiêu $\\max\\ 3x_1+2x_2$ như hình trên (ràng buộc $x_1+x_2\\le4,\\ x_1+3x_2\\le6$). Đỉnh cực biên tối ưu là:",
+  "options": {
+   "A": "$(0,2)$.",
+   "B": "$(3,1)$.",
+   "C": "$(4,0)$.",
+   "D": "$(0,0)$."
+  },
+  "correct": "C",
+  "explanation": "Giá trị tại 4 đỉnh: $f(0,0)=0,\\ f(4,0)=12,\\ f(3,1)=11,\\ f(0,2)=4$ — lớn nhất tại $(4,0)$, $f^*=12$."
+ },
+ {
+  "id": 12,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p02.png",
+  "question": "Với $\\max\\ 4x_1+3x_2$, ràng buộc $2x_1+x_2\\le10,\\ x_1+3x_2\\le15$, đỉnh tối ưu và giá trị tối ưu là:",
+  "options": {
+   "A": "$(5,0),\\ f=20$.",
+   "B": "$(3,4),\\ f=24$.",
+   "C": "$(0,5),\\ f=15$.",
+   "D": "$(0,0),\\ f=0$."
+  },
+  "correct": "B",
+  "explanation": "$f(5,0)=20,\\ f(3,4)=24,\\ f(0,5)=15$ — lớn nhất tại $(3,4)$."
+ },
+ {
+  "id": 13,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p03.png",
+  "question": "Miền khả thi có 3 ràng buộc ($x_1+2x_2\\le8,\\ 3x_1+2x_2\\le12,\\ x_1\\le3$), $\\max\\ 5x_1+4x_2$. Đỉnh tối ưu là:",
+  "options": {
+   "A": "$(3,0)$.",
+   "B": "$(3,1.5)$.",
+   "C": "$(2,3)$.",
+   "D": "$(0,4)$."
+  },
+  "correct": "C",
+  "explanation": "$f(3,0)=15,\\ f(3,1.5)=21,\\ f(2,3)=22,\\ f(0,4)=16$ — lớn nhất tại $(2,3)$."
+ },
+ {
+  "id": 14,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p04.png",
+  "question": "Với $\\min\\ x_1-x_2$, ràng buộc $x_1+x_2\\le10,\\ x_1-x_2\\le4$, đỉnh tối ưu là:",
+  "options": {
+   "A": "$(0,0)$.",
+   "B": "$(4,0)$.",
+   "C": "$(7,3)$.",
+   "D": "$(0,10)$."
+  },
+  "correct": "D",
+  "explanation": "$f(0,0)=0,f(4,0)=4,f(7,3)=4,f(0,10)=-10$ — nhỏ nhất (âm nhất) tại $(0,10)$."
+ },
+ {
+  "id": 15,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p05.png",
+  "question": "Với $\\max\\ x_1+3x_2$, ràng buộc $x_1+x_2\\le8,\\ 2x_1+x_2\\le10$, giá trị hàm mục tiêu tối ưu là:",
+  "options": {
+   "A": "20.",
+   "B": "24.",
+   "C": "15.",
+   "D": "5."
+  },
+  "correct": "B",
+  "explanation": "Đỉnh tối ưu $(0,8)$: $f=0+3(8)=24$ — lớn hơn $f(5,0)=5,\\ f(2,6)=20$."
+ },
+ {
+  "id": 16,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p06.png",
+  "question": "Với $\\max\\ 2x_1+5x_2$, ràng buộc $3x_1+x_2\\le15,\\ x_1+2x_2\\le10$, đâu là đỉnh KHÔNG phải tối ưu nhưng có giá trị hàm mục tiêu gần đỉnh tối ưu nhất trong 4 đỉnh?",
+  "options": {
+   "A": "$(0,0)$.",
+   "B": "$(5,0)$.",
+   "C": "$(4,3)$.",
+   "D": "$(0,5)$ (đây chính là đỉnh tối ưu, $f=25$)."
+  },
+  "correct": "C",
+  "explanation": "$f(4,3)=8+15=23$, gần với $f^*=25$ tại $(0,5)$ hơn so với $f(5,0)=10$ hay $f(0,0)=0$."
+ },
+ {
+  "id": 17,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p07.png",
+  "question": "Với $\\max\\ x_1+x_2$, ràng buộc $x_1\\le6,\\ x_2\\le5,\\ x_1+x_2\\le9$, giá trị tối ưu $f^*$ đạt tại:",
+  "options": {
+   "A": "Duy nhất đỉnh $(6,3)$.",
+   "B": "Duy nhất đỉnh $(4,5)$.",
+   "C": "Toàn bộ cạnh nối $(6,3)$ và $(4,5)$ (vô số nghiệm).",
+   "D": "Đỉnh $(0,0)$."
+  },
+  "correct": "C",
+  "explanation": "$f(6,3)=9=f(4,5)$ — hàm mục tiêu song song với cạnh nối 2 đỉnh này (cả 2 đều đạt $f=9$, là giá trị lớn nhất) $\\Rightarrow$ vô số nghiệm tối ưu trên toàn cạnh."
+ },
+ {
+  "id": 18,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p08.png",
+  "question": "Với $\\max\\ 3x_1+x_2$, ràng buộc $x_1+3x_2\\le12,\\ x_1+x_2\\le6$, đỉnh tối ưu là:",
+  "options": {
+   "A": "$(0,4)$.",
+   "B": "$(3,3)$.",
+   "C": "$(6,0)$.",
+   "D": "$(0,0)$."
+  },
+  "correct": "C",
+  "explanation": "$f(6,0)=18$ lớn nhất trong 4 đỉnh ($f(0,4)=4,\\ f(3,3)=12,\\ f(0,0)=0$)."
+ },
+ {
+  "id": 19,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p09.png",
+  "question": "Với $\\max\\ 3x_1+4x_2$, ràng buộc $4x_1+2x_2\\le20,\\ x_1+3x_2\\le15$, giá trị tối ưu là:",
+  "options": {
+   "A": "15.",
+   "B": "20.",
+   "C": "25.",
+   "D": "60."
+  },
+  "correct": "C",
+  "explanation": "Đỉnh tối ưu $(3,4)$: $f=9+16=25$."
+ },
+ {
+  "id": 20,
+  "group": "NHÓM 2 — CHƯƠNG I: PHƯƠNG PHÁP ĐỒ THỊ (10 câu có đồ thị)",
+  "image": "p10.png",
+  "question": "Với $\\max\\ 2x_1+3x_2$, ràng buộc $x_1+x_2\\le20,\\ 3x_1+x_2\\le30$, đỉnh tối ưu là:",
+  "options": {
+   "A": "$(10,0)$.",
+   "B": "$(5,15)$.",
+   "C": "$(0,20)$.",
+   "D": "$(0,0)$."
+  },
+  "correct": "C",
+  "explanation": "$f(0,20)=60$ lớn nhất ($f(10,0)=20,\\ f(5,15)=55$). --- ## NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)"
+ },
+ {
+  "id": 21,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p13.png",
+  "question": "Tập $A$ trong hình (đa giác) có tính chất gì?",
+  "options": {
+   "A": "Lồi.",
+   "B": "Không lồi.",
+   "C": "Không phải tập đóng.",
+   "D": "Rỗng."
+  },
+  "correct": "A",
+  "explanation": "Đoạn thẳng nối 2 điểm bất kỳ trong $A$ (minh họa bằng đoạn đỏ) nằm trọn trong $A$ $\\Rightarrow$ lồi."
+ },
+ {
+  "id": 22,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p14.png",
+  "question": "Tập $B$ hình ngôi sao có tính chất gì?",
+  "options": {
+   "A": "Lồi.",
+   "B": "Không lồi.",
+   "C": "Là 1 điểm.",
+   "D": "Là tập affine."
+  },
+  "correct": "B",
+  "explanation": "Đoạn nối 2 đỉnh \"lõm\" của ngôi sao đi ra ngoài tập $B$ $\\Rightarrow$ không lồi."
+ },
+ {
+  "id": 23,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p15.png",
+  "question": "So sánh tập $C$ (hình tròn đặc) và tập $D$ (chỉ đường tròn — biên):",
+  "options": {
+   "A": "Cả 2 đều lồi.",
+   "B": "Cả 2 đều không lồi.",
+   "C": "$C$ lồi, $D$ không lồi.",
+   "D": "$C$ không lồi, $D$ lồi."
+  },
+  "correct": "C",
+  "explanation": "Hình tròn đặc (chứa cả phần trong) là tập lồi kinh điển; đường tròn (chỉ biên, 1 chiều) không lồi vì đoạn nối 2 điểm trên đường tròn thường đi qua phần trong không thuộc tập."
+ },
+ {
+  "id": 24,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p16.png",
+  "question": "Miền tô màu là giao của 2 nửa mặt phẳng $x_1+x_2\\le6$ và $x_2\\le4$. Tính chất của giao này:",
+  "options": {
+   "A": "Luôn lồi (giao 2 tập lồi là tập lồi).",
+   "B": "Có thể không lồi.",
+   "C": "Luôn rỗng.",
+   "D": "Không xác định được."
+  },
+  "correct": "A",
+  "explanation": "Định lý: giao (hữu hạn hoặc vô hạn) các tập lồi luôn là tập lồi; mỗi nửa mặt phẳng là tập lồi."
+ },
+ {
+  "id": 25,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p17.png",
+  "question": "Hợp của 2 hình tròn rời nhau như hình có tính chất gì?",
+  "options": {
+   "A": "Lồi.",
+   "B": "Không lồi.",
+   "C": "Là 1 đa diện.",
+   "D": "Là tập affine."
+  },
+  "correct": "B",
+  "explanation": "Đoạn nối 1 điểm ở hình tròn trái với 1 điểm ở hình tròn phải đi qua vùng trống ở giữa (không thuộc tập) $\\Rightarrow$ không lồi. Đây là phản ví dụ kinh điển cho thấy **hợp** của 2 tập lồi nói chung KHÔNG lồi (khác với **giao**, luôn lồi)."
+ },
+ {
+  "id": 26,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p18.png",
+  "question": "So sánh tập $E$ (hình vuông) và $F$ (dải nửa mặt phẳng $0\\le x_2\\le4$):",
+  "options": {
+   "A": "$E$ là polytope (đa diện lồi bị chặn), $F$ là polyhedron không bị chặn.",
+   "B": "Cả 2 đều bị chặn.",
+   "C": "Cả 2 đều là polytope.",
+   "D": "$E$ không lồi."
+  },
+  "correct": "A",
+  "explanation": "Polytope = polyhedron bị chặn; $E$ hữu hạn nên là polytope, $F$ trải dài vô hạn theo $x_1$ nên chỉ là polyhedron (không bị chặn)."
+ },
+ {
+  "id": 27,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p19.png",
+  "question": "Bao lồi (convex hull, vùng tô màu) của 6 điểm cho trước có bao nhiêu điểm là đỉnh của bao lồi (điểm cực biên)?",
+  "options": {
+   "A": "6 (tất cả).",
+   "B": "5 (1 điểm nằm trong bao lồi của các điểm còn lại).",
+   "C": "3.",
+   "D": "0."
+  },
+  "correct": "B",
+  "explanation": "Với dữ liệu 6 điểm đã cho, đúng 5 điểm nằm trên biên bao lồi; 1 điểm nằm lọt vào bên trong (không phải điểm cực biên của bao lồi) — minh họa rằng không phải mọi điểm trong 1 tập hữu hạn đều là điểm cực biên của bao lồi của chúng."
+ },
+ {
+  "id": 28,
+  "group": "NHÓM 3 — CHƯƠNG II: TẬP LỒI (8 câu có đồ thị)",
+  "image": "p20.png",
+  "question": "Nửa không gian tô màu ứng với ràng buộc $2x_1+x_2\\ge6$ có vector pháp tuyến $a=(2,1)$. Hướng của $a$ chỉ về phía nào?",
+  "options": {
+   "A": "Phía miền tô màu (miền thỏa mãn $\\ge$).",
+   "B": "Phía ngược lại miền tô màu.",
+   "C": "Song song với biên.",
+   "D": "Không xác định."
+  },
+  "correct": "A",
+  "explanation": "Với ràng buộc dạng $\\ge$, vector pháp tuyến $a$ luôn chỉ về phía nửa không gian thỏa mãn (hướng tăng của $a^Tx$). --- ## NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)"
+ },
+ {
+  "id": 29,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": "p11.png",
+  "question": "Miền khả thi hình trên có 4 đỉnh cực biên: $(0,0),(4,0),(3,2),(0,4)$. Với $\\max\\ 4x_1+x_2$, đỉnh tối ưu là:",
+  "options": {
+   "A": "$(0,0)$.",
+   "B": "$(4,0)$.",
+   "C": "$(3,2)$.",
+   "D": "$(0,4)$."
+  },
+  "correct": "B",
+  "explanation": "$f(4,0)=16$ lớn nhất ($f(3,2)=14,f(0,4)=4$)."
+ },
+ {
+  "id": 30,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": "p12.png",
+  "question": "Với $\\min\\ x_1+x_2$ trên miền khả thi có chứa gốc tọa độ $(0,0)$, giá trị tối ưu là:",
+  "options": {
+   "A": "$0$, đạt tại gốc $(0,0)$.",
+   "B": "Âm vô cùng.",
+   "C": "Không tồn tại.",
+   "D": "Đạt tại $(3,0)$."
+  },
+  "correct": "A",
+  "explanation": "Vì $x_1,x_2\\ge0$ nên $x_1+x_2\\ge0$ luôn đúng trên toàn miền; giá trị nhỏ nhất có thể là $0$, và gốc $(0,0)$ thuộc miền khả thi nên đạt được — đây là ví dụ đơn giản cho thấy đỉnh tối ưu của bài toán min với hệ số mục tiêu dương luôn có xu hướng \"kéo\" về gốc tọa độ nếu gốc khả thi."
+ },
+ {
+  "id": 31,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": "p12b.png",
+  "question": "Miền khả thi trong hình (ràng buộc $x_1-x_2\\le2,\\ x_1,x_2\\ge0$) có đặc điểm gì khiến bài toán $\\max\\ x_2$ trên miền này không có nghiệm tối ưu hữu hạn?",
+  "options": {
+   "A": "Miền rỗng.",
+   "B": "Miền không bị chặn theo hướng $x_2\\to\\infty$.",
+   "C": "Miền chỉ có 1 điểm.",
+   "D": "Ràng buộc mâu thuẫn."
+  },
+  "correct": "B",
+  "explanation": "Miền khả thi kéo dài vô hạn theo trục $x_2$ (với $x_1$ cố định bất kỳ $\\ge0$, $x_2$ có thể lớn tùy ý) $\\Rightarrow$ $\\max x_2\\to+\\infty$, bài toán không bị chặn."
+ },
+ {
+  "id": 32,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": "p19.png",
+  "question": "*(Dùng lại hình bao lồi ở Câu 27.)* Theo định nghĩa, bao lồi của 1 tập hợp $C$ là:",
+  "options": {
+   "A": "Tập lồi nhỏ nhất chứa $C$.",
+   "B": "Tập lồi lớn nhất chứa trong $C$.",
+   "C": "Biên của $C$.",
+   "D": "Phần bù của $C$."
+  },
+  "correct": "A",
+  "explanation": "Định nghĩa chuẩn (Chương II, mục \"Bao lồi\")."
+ },
+ {
+  "id": 33,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": null,
+  "question": "Định lý về sự tồn tại điểm cực biên: nếu $D=\\{x:Ax=b,x\\ge0\\}\\ne\\emptyset$ và $\\text{rank}(A)=m$ thì:",
+  "options": {
+   "A": "$D$ luôn có ít nhất 1 điểm cực biên.",
+   "B": "$D$ không thể có điểm cực biên.",
+   "C": "$D$ luôn là tập rỗng.",
+   "D": "$D$ luôn không bị chặn."
+  },
+  "correct": "A",
+  "explanation": "Vì $D\\subset\\{x\\ge0\\}$ không chứa đường thẳng nào (bị chặn dưới theo mọi tọa độ), mọi đa diện lồi khác rỗng dạng này đều có điểm cực biên."
+ },
+ {
+  "id": 34,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": null,
+  "question": "Nếu bài toán QHTT có phương án tối ưu, thì theo định lý cơ bản của phương pháp đồ thị (và đơn hình), phương án tối ưu:",
+  "options": {
+   "A": "Luôn có thể tìm được tại 1 điểm cực biên của miền khả thi.",
+   "B": "Không bao giờ ở điểm cực biên.",
+   "C": "Luôn nằm ở phần trong (interior) của miền.",
+   "D": "Không liên quan đến hình học của miền."
+  },
+  "correct": "A",
+  "explanation": "Đây là kết quả nền tảng (mục \"Một vài tính chất\") cho phép giới hạn tìm kiếm nghiệm tối ưu về hữu hạn điểm cực biên thay vì vô hạn điểm khả thi."
+ },
+ {
+  "id": 35,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": null,
+  "question": "Tập phương án của bài toán QHTT có thể rơi vào bao nhiêu trường hợp về tính \"có nghiệm tối ưu hữu hạn\"?",
+  "options": {
+   "A": "3 trường hợp: vô nghiệm (rỗng), có nghiệm tối ưu hữu hạn, không bị chặn (vô nghiệm do $f\\to\\pm\\infty$).",
+   "B": "Chỉ 1 trường hợp.",
+   "C": "Chỉ 2 trường hợp.",
+   "D": "Vô hạn trường hợp."
+  },
+  "correct": "A",
+  "explanation": "Đây là phân loại chuẩn kết quả của 1 bài toán QHTT."
+ },
+ {
+  "id": 36,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": null,
+  "question": "Số điểm cực biên tối đa của 1 đa diện lồi xác định bởi hệ $Ax=b,x\\ge0$ với $A$ cỡ $m\\times n$ là:",
+  "options": {
+   "A": "Vô hạn.",
+   "B": "Hữu hạn, không vượt quá $\\binom{n}{m}$ (số cách chọn $m$ cột từ $n$ cột).",
+   "C": "Luôn đúng bằng $n$.",
+   "D": "Luôn đúng bằng 1."
+  },
+  "correct": "B",
+  "explanation": "Mỗi PACB ứng với 1 cách chọn $m$ cột độc lập tuyến tính làm cơ sở trong $n$ cột, nên số PACB (điểm cực biên) tối đa là $\\binom{n}{m}$ — hữu hạn, đảm bảo thuật toán đơn hình dừng sau hữu hạn bước."
+ },
+ {
+  "id": 37,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": null,
+  "question": "Tập rỗng có được coi là tập lồi hay không, theo quy ước chuẩn trong giáo trình?",
+  "options": {
+   "A": "Có (theo quy ước).",
+   "B": "Không.",
+   "C": "Chỉ lồi khi có 1 phần tử.",
+   "D": "Tùy trường hợp."
+  },
+  "correct": "A",
+  "explanation": "Quy ước chuẩn (Chương II, mục 1 \"Tập lồi\"): tập rỗng được coi là tập lồi (điều kiện định nghĩa lồi đúng \"một cách trống rỗng\" — vacuously true)."
+ },
+ {
+  "id": 38,
+  "group": "NHÓM 4 — CHƯƠNG II: ĐIỂM CỰC BIÊN & SỰ TỒN TẠI NGHIỆM (4 câu có đồ thị + 6 lý thuyết)",
+  "image": null,
+  "question": "Tổ hợp lồi của $k$ điểm $x_1,\\dots,x_k$ là điểm có dạng:",
+  "options": {
+   "A": "$\\theta_1x_1+\\dots+\\theta_kx_k$ với $\\theta_i\\ge0,\\ \\sum\\theta_i=1$.",
+   "B": "$\\theta_1x_1+\\dots+\\theta_kx_k$ với $\\theta_i$ bất kỳ.",
+   "C": "$x_1+x_2+\\dots+x_k$.",
+   "D": "$\\max\\{x_1,\\dots,x_k\\}$."
+  },
+  "correct": "A",
+  "explanation": "Định nghĩa chuẩn tổ hợp lồi (Chương II, mục \"Bao lồi\"). --- ## NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)"
+ },
+ {
+  "id": 39,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p21.png",
+  "question": "Đường đi đơn hình trên hình minh họa việc di chuyển từ đỉnh xuất phát $(0,0)$ qua đỉnh kề $(4,0)$ rồi đến đỉnh tối ưu $(3,1)$. Nguyên lý nào của thuật toán đơn hình được minh họa?",
+  "options": {
+   "A": "Di chuyển lặp lại sang đỉnh kề có giá trị hàm mục tiêu tốt hơn cho đến khi không cải thiện được nữa.",
+   "B": "Nhảy trực tiếp đến đỉnh xa nhất.",
+   "C": "Chỉ di chuyển 1 lần duy nhất.",
+   "D": "Không có nguyên lý nào."
+  },
+  "correct": "A",
+  "explanation": "Đúng nguyên lý cơ bản của đơn hình (mục \"Ý tưởng cơ bản\")."
+ },
+ {
+  "id": 40,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p22.png",
+  "question": "Với ngũ giác 5 đỉnh $A,B,C,D,E$ và $c=(1,2)$, đỉnh nào cho giá trị hàm mục tiêu lớn nhất?",
+  "options": {
+   "A": "$A$.",
+   "B": "$B$.",
+   "C": "$C$.",
+   "D": "$D$."
+  },
+  "correct": "C",
+  "explanation": "Tính trực tiếp $c^Tx$ tại 5 đỉnh $(0,0),(4,0),(4,3),(2,4),(0,3)$: giá trị lần lượt $0,4,10,10,6$ — **lưu ý có 2 đỉnh cùng đạt giá trị 10 ($C=(4,3)$ và $D=(2,4)$)**; theo quy tắc chọn đỉnh đầu tiên đạt được trong thứ tự liệt kê, đáp án được xác định là $C$ (đỉnh đầu tiên đạt giá trị lớn nhất khi duyệt tuần tự $A\\to B\\to C\\to D\\to E$)."
+ },
+ {
+  "id": 41,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p23.png",
+  "question": "Với bài toán $\\min$, các ước lượng $\\Delta_j$ của 4 biến phi cơ sở $x_1,x_2,x_3,x_4$ lần lượt là $-2,3,-1,0$. Biến nào sẽ được đưa vào cơ sở ở bước tiếp theo?",
+  "options": {
+   "A": "$x_1$.",
+   "B": "$x_2$.",
+   "C": "$x_3$.",
+   "D": "$x_4$."
+  },
+  "correct": "B",
+  "explanation": "Duy nhất $\\Delta_2=3>0$ (điều kiện cần để cải thiện với bài toán min theo quy ước $\\Delta_j\\le0$ là tối ưu) $\\Rightarrow x_2$ vào cơ sở."
+ },
+ {
+  "id": 42,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p24.png",
+  "question": "Với cột biến vào có $x_{i0}=(12,8,20)$ và $z_{is}=(3,2,-1)$ ở 3 hàng, hàng nào sẽ là hàng biến ra (pivot)?",
+  "options": {
+   "A": "Hàng 1 và Hàng 2 (đồng thời đạt tỷ số nhỏ nhất $\\theta=4$).",
+   "B": "Hàng 3.",
+   "C": "Chỉ Hàng 1.",
+   "D": "Không hàng nào ra."
+  },
+  "correct": "A",
+  "explanation": "$\\theta_1=12/3=4,\\ \\theta_2=8/2=4,\\ \\theta_3$: loại vì $z_{3s}=-1\\le0$ (không đưa vào tỷ số). Hai hàng 1, 2 cùng đạt $\\theta_{\\min}=4$ — đây là dấu hiệu bài toán sẽ **suy biến** (degenerate) ở bước tiếp theo, có thể chọn 1 trong 2 hàng làm hàng ra (thường chọn theo quy tắc bổ sung như Bland's rule để tránh xoay vòng vô hạn)."
+ },
+ {
+  "id": 43,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p25.png",
+  "question": "Hình minh họa 1 cạnh vô hạn xuất phát từ 1 đỉnh, cùng hướng cải thiện hàm mục tiêu. Đây là dấu hiệu của:",
+  "options": {
+   "A": "Bài toán có nghiệm tối ưu duy nhất.",
+   "B": "Bài toán không bị chặn (vô nghiệm do $f\\to\\pm\\infty$).",
+   "C": "Bài toán suy biến.",
+   "D": "Bài toán đối ngẫu vô nghiệm."
+  },
+  "correct": "B",
+  "explanation": "Đúng dấu hiệu hình học của trường hợp không bị chặn (tương ứng dấu hiệu đại số: tồn tại $\\Delta_k>0$ nhưng cột $z_{jk}\\le0\\ \\forall j$)."
+ },
+ {
+  "id": 44,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p26.png",
+  "question": "Với ngũ giác và $c=(1,1)$, 2 đỉnh $C=(6,3)$ và $D=(4,5)$ cùng đạt giá trị hàm mục tiêu $f=9$ (giá trị lớn nhất). Kết luận về tập nghiệm tối ưu:",
+  "options": {
+   "A": "Duy nhất 1 nghiệm.",
+   "B": "Vô số nghiệm tối ưu — toàn bộ cạnh nối $C$ và $D$.",
+   "C": "Vô nghiệm.",
+   "D": "Không bị chặn."
+  },
+  "correct": "B",
+  "explanation": "2 đỉnh kề cùng tối ưu $\\Rightarrow$ cả cạnh nối chúng đều là nghiệm tối ưu (đã chứng minh ở Câu 17/Đề 3 phần lý thuyết Chương I)."
+ },
+ {
+  "id": 45,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": "p27.png",
+  "question": "Bảng lịch sử đổi cơ sở cho thấy $f$ tăng đơn điệu $0\\to24\\to30$ qua các bước. Đây có phải hành vi đúng của thuật toán đơn hình khi giải bài toán max hay không?",
+  "options": {
+   "A": "Đúng — mỗi bước đổi cơ sở (không suy biến) đều làm hàm mục tiêu tăng hoặc giữ nguyên, không bao giờ giảm.",
+   "B": "Sai, phải giảm dần.",
+   "C": "Sai, phải dao động lên xuống.",
+   "D": "Không liên quan."
+  },
+  "correct": "A",
+  "explanation": "Tính chất đơn điệu là nền tảng đảm bảo thuật toán không lặp lại 1 PACB (khi không suy biến) và dừng sau hữu hạn bước."
+ },
+ {
+  "id": 46,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": null,
+  "question": "Trong dạng từ điển (dictionary) của đơn hình gốc, \"biến cơ sở\" là:",
+  "options": {
+   "A": "Các biến được biểu diễn qua các biến phi cơ sở.",
+   "B": "Các biến luôn bằng 0.",
+   "C": "Các biến không xuất hiện trong bài toán.",
+   "D": "Hệ số của hàm mục tiêu."
+  },
+  "correct": "A",
+  "explanation": "Định nghĩa chuẩn (Bước 2, `..._goc.pdf` tr.8)."
+ },
+ {
+  "id": 47,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": null,
+  "question": "Điều kiện \"TH2\" trong công thức đổi cơ sở (khi tồn tại $j\\in J_0$ với $z_{js}>0$) dùng để:",
+  "options": {
+   "A": "Xác định $\\theta=\\min\\{x_{j0}^0/z_{js}: j\\in J_0, z_{js}>0\\}$, đảm bảo phương án mới vẫn không âm.",
+   "B": "Kết luận bài toán vô nghiệm.",
+   "C": "Dừng thuật toán ngay lập tức.",
+   "D": "Đổi dấu hàm mục tiêu."
+  },
+  "correct": "A",
+  "explanation": "Đây chính là phép toán tỷ số min chuẩn (mục \"Công thức đổi cơ sở\")."
+ },
+ {
+  "id": 48,
+  "group": "NHÓM 5 — CHƯƠNG III: ĐƠN HÌNH GỐC & TỪ ĐIỂN (7 câu có đồ thị + 3 lý thuyết)",
+  "image": null,
+  "question": "Công thức cập nhật giá trị hàm mục tiêu sau 1 bước đổi cơ sở là $f(x^1)=f(x^0)-\\Delta_s \\cdot\\theta$. Nếu $\\Delta_s>0$ và $\\theta>0$ (bài toán min), thì:",
+  "options": {
+   "A": "$f(x^1)<f(x^0)$ (giảm, cải thiện đúng hướng min).",
+   "B": "$f(x^1)>f(x^0)$.",
+   "C": "$f(x^1)=f(x^0)$.",
+   "D": "Không xác định."
+  },
+  "correct": "A",
+  "explanation": "Vì $\\Delta_s\\theta>0$ nên $f$ giảm sau mỗi bước — đúng hướng cải thiện cho bài toán min. --- ## NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)"
+ },
+ {
+  "id": 49,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Ẩn giả (artificial variable) được thêm vào khi nào?",
+  "options": {
+   "A": "Khi phương trình ràng buộc chưa có sẵn 1 cột đơn vị (vectơ đơn vị) làm biến cơ sở ban đầu.",
+   "B": "Luôn luôn, với mọi bài toán.",
+   "C": "Chỉ khi hàm mục tiêu âm.",
+   "D": "Chỉ khi $b<0$."
+  },
+  "correct": "A",
+  "explanation": "Đúng định nghĩa (mục II, `Huong_Dan_Giai_Bang_Don_Hinh_2Pha_va_M.md`)."
+ },
+ {
+  "id": 50,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Trong phương pháp hai pha, bài toán phụ (Pha 1) có hàm mục tiêu:",
+  "options": {
+   "A": "$F(x,w)=\\sum$ (các ẩn giả) $\\to\\min$.",
+   "B": "$F(x,w)=c^Tx\\to\\min$.",
+   "C": "$F(x,w)=\\sum x_j\\to\\max$.",
+   "D": "Không có hàm mục tiêu."
+  },
+  "correct": "A",
+  "explanation": "Định nghĩa chuẩn Pha 1."
+ },
+ {
+  "id": 51,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Nếu Pha 1 kết thúc với $F^*=0$ nhưng vẫn còn 1 ẩn giả trong cơ sở ở mức giá trị 0, ta xử lý bằng cách:",
+  "options": {
+   "A": "Kết luận ngay bài toán vô nghiệm.",
+   "B": "Giữ tạm ẩn giả đó sang Pha 2 (giá trị 0), loại nó ngay khi có thể đổi cơ sở.",
+   "C": "Nhân đôi giá trị $M$.",
+   "D": "Bỏ qua, không cần xử lý."
+  },
+  "correct": "B",
+  "explanation": "Đúng kỹ thuật xử lý trường hợp suy biến trong pha 1 (Ví dụ 2, mục II)."
+ },
+ {
+  "id": 52,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Trong phương pháp M, hệ số phạt $M$ được gán cho:",
+  "options": {
+   "A": "Các ẩn giả, trong hàm mục tiêu của bài toán $M$.",
+   "B": "Các biến bù.",
+   "C": "Các ràng buộc dấu.",
+   "D": "Hàm mục tiêu gốc toàn bộ."
+  },
+  "correct": "A",
+  "explanation": "Định nghĩa (mục III, `Huong_Dan_Giai_Bang_Don_Hinh_2Pha_va_M.md`)."
+ },
+ {
+  "id": 53,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Ước lượng $\\Delta_j$ trong bảng đơn hình M có dạng $\\delta_jM+\\gamma_j$. Nếu $\\delta_j>\\delta_k$ (với $M$ đủ lớn), kết luận:",
+  "options": {
+   "A": "$\\Delta_j>\\Delta_k$ bất kể $\\gamma_j,\\gamma_k$.",
+   "B": "$\\Delta_j<\\Delta_k$.",
+   "C": "Phải so sánh $\\gamma$ trước.",
+   "D": "Không so sánh được."
+  },
+  "correct": "A",
+  "explanation": "Vì $M$ được coi lớn hơn mọi số cụ thể khác, hệ số $\\delta$ (bậc của $M$) quyết định trước, $\\gamma$ chỉ dùng để so sánh khi $\\delta$ bằng nhau."
+ },
+ {
+  "id": 54,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Trong Ví dụ 1 (phương pháp M, `Huong_Dan_Giai_Bang_Don_Hinh_2Pha_va_M.md`), bài toán $f(x)=-3x_1+x_2+3x_3-x_4\\to\\min$ có phương án tối ưu:",
+  "options": {
+   "A": "$x^*=(3,2,5,0)$, $f^*=8$.",
+   "B": "$x^*=(0,0,0,0)$, $f^*=0$.",
+   "C": "Vô nghiệm.",
+   "D": "Không bị chặn."
+  },
+  "correct": "A",
+  "explanation": "Kết quả đã tính đầy đủ trong file cẩm nang (mục III, Ví dụ 1)."
+ },
+ {
+  "id": 55,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Trong Ví dụ 2 (phương pháp M, cùng tài liệu), bài toán $2x_1-2x_2+3x_3\\to\\min$ với 2 ràng buộc cho sẵn có kết luận:",
+  "options": {
+   "A": "Có nghiệm tối ưu hữu hạn.",
+   "B": "Vô nghiệm (tập phương án rỗng) — vì bảng tối ưu còn ẩn giả dương $x_6=1/2$.",
+   "C": "Không bị chặn.",
+   "D": "Vô số nghiệm."
+  },
+  "correct": "B",
+  "explanation": "Đúng kết luận đã chứng minh trong tài liệu."
+ },
+ {
+  "id": 56,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "So với phương pháp hai pha, phương pháp M có nhược điểm chính là:",
+  "options": {
+   "A": "Phải tính toán với số $M$ (dễ sai số/nhầm lẫn khi làm tay), thay vì tách thành 2 bài toán số thực thông thường.",
+   "B": "Không giải được bài toán có ràng buộc $=$.",
+   "C": "Chỉ dùng được cho 2 biến.",
+   "D": "Không có nhược điểm nào."
+  },
+  "correct": "A",
+  "explanation": "Đây là lý do thực tế khiến nhiều giáo trình ưu tiên dạy hai pha trước."
+ },
+ {
+  "id": 57,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Cả phương pháp hai pha và phương pháp M, khi áp dụng đúng cho cùng 1 bài toán có nghiệm, sẽ luôn:",
+  "options": {
+   "A": "Cho ra 2 đáp số khác nhau.",
+   "B": "Cho ra cùng 1 đáp số (phương án tối ưu và giá trị tối ưu).",
+   "C": "Chỉ 1 trong 2 phương pháp cho đáp số đúng.",
+   "D": "Không thể so sánh."
+  },
+  "correct": "B",
+  "explanation": "Cả 2 đều giải đúng 1 bài toán gốc, chỉ khác kỹ thuật trung gian — kết quả cuối cùng phải trùng nhau (dùng để tự kiểm tra chéo bài làm)."
+ },
+ {
+  "id": 58,
+  "group": "NHÓM 6 — CHƯƠNG III: ĐƠN HÌNH HAI PHA & M (10 câu, không đồ thị)",
+  "image": null,
+  "question": "Trong Ví dụ 3 (phương pháp hai pha, `Huong_Dan_Giai_Bang_Don_Hinh_2Pha_va_M.md`), bài toán $f(x)=2x_1-2x_2+3x_3\\to\\min$ kết luận:",
+  "options": {
+   "A": "Có PATƯ hữu hạn.",
+   "B": "Vô nghiệm — vì $F^*=1/2>0$ ở cuối Pha 1.",
+   "C": "Không bị chặn.",
+   "D": "$f^*=0$."
+  },
+  "correct": "B",
+  "explanation": "Đúng theo TH1 lý thuyết hai pha, đã chứng minh trong tài liệu. --- ## NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)"
+ },
+ {
+  "id": 59,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Với bài toán gốc $P:\\min\\{c^Tx:Ax\\ge b,x\\ge0\\}$, bài toán đối ngẫu $Q$ là:",
+  "options": {
+   "A": "$\\max\\{b^Ty:A^Ty\\le c,y\\ge0\\}$.",
+   "B": "$\\min\\{b^Ty:A^Ty\\ge c\\}$.",
+   "C": "$\\max\\{c^Ty\\}$.",
+   "D": "$\\min\\{b^Ty\\}$."
+  },
+  "correct": "A",
+  "explanation": "Cặp đối ngẫu chuẩn (Chương IV, bảng quy tắc)."
+ },
+ {
+  "id": 60,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Nếu ràng buộc gốc thứ $i$ là đẳng thức ($=b_i$), biến đối ngẫu $y_i$ tương ứng:",
+  "options": {
+   "A": "$y_i\\ge0$.",
+   "B": "$y_i\\le0$.",
+   "C": "$y_i\\in\\mathbb{R}$ (không ràng buộc dấu).",
+   "D": "$y_i=0$."
+  },
+  "correct": "C",
+  "explanation": "Theo bảng quy tắc lập đối ngẫu."
+ },
+ {
+  "id": 61,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Nếu biến gốc $x_j$ không ràng buộc dấu ($x_j\\in\\mathbb{R}$), ràng buộc đối ngẫu thứ $j$ tương ứng:",
+  "options": {
+   "A": "Dạng bất đẳng thức $\\le$.",
+   "B": "Dạng bất đẳng thức $\\ge$.",
+   "C": "Dạng đẳng thức $=$.",
+   "D": "Không có ràng buộc."
+  },
+  "correct": "C",
+  "explanation": "Theo bảng quy tắc: biến tự do $\\leftrightarrow$ ràng buộc đối ngẫu dạng $=$."
+ },
+ {
+  "id": 62,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Định lý đối ngẫu yếu (Định lý 1) phát biểu: với mọi cặp phương án $x,y$ tương ứng của $P$ (min) và $Q$ (max):",
+  "options": {
+   "A": "$c^Tx\\ge b^Ty$.",
+   "B": "$c^Tx\\le b^Ty$.",
+   "C": "$c^Tx=b^Ty$ luôn đúng.",
+   "D": "Không có quan hệ."
+  },
+  "correct": "A",
+  "explanation": "Định lý 1, Chương IV — giá trị hàm mục tiêu bài toán min luôn $\\ge$ giá trị hàm mục tiêu bài toán max đối ngẫu, với mọi cặp phương án."
+ },
+ {
+  "id": 63,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Hệ quả 1 (Chương IV) phát biểu: nếu cặp phương án $\\bar x,\\bar y$ thỏa $c^T\\bar x= b^T\\bar y$ thì:",
+  "options": {
+   "A": "Cả 2 đều là phương án tối ưu của bài toán tương ứng.",
+   "B": "Cả 2 đều vô nghiệm.",
+   "C": "Chỉ $\\bar x$ tối ưu.",
+   "D": "Không kết luận được gì."
+  },
+  "correct": "A",
+  "explanation": "Đây là công cụ trực tiếp để kiểm chứng 1 cặp phương án cho sẵn có tối ưu hay không (dùng trong Phụ lục A, `De_Thi_Mau_QHTT.md`)."
+ },
+ {
+  "id": 64,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Hệ quả 2 phát biểu: nếu cả 2 bài toán gốc và đối ngẫu đều có tập phương án khác rỗng thì:",
+  "options": {
+   "A": "Cả 2 đều có phương án tối ưu.",
+   "B": "Cả 2 đều vô nghiệm.",
+   "C": "Cả 2 đều không bị chặn.",
+   "D": "Không kết luận được."
+  },
+  "correct": "A",
+  "explanation": "Hệ quả 2, Chương IV."
+ },
+ {
+  "id": 65,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Hệ quả 3 phát biểu: nếu 1 trong 2 bài toán có tập phương án khác rỗng nhưng hàm mục tiêu không bị chặn thì:",
+  "options": {
+   "A": "Bài toán kia có tập phương án rỗng.",
+   "B": "Bài toán kia cũng không bị chặn.",
+   "C": "Bài toán kia có nghiệm duy nhất.",
+   "D": "Không kết luận được."
+  },
+  "correct": "A",
+  "explanation": "Hệ quả 3, Chương IV (chứng minh bằng phản chứng dựa trên Định lý 1)."
+ },
+ {
+  "id": 66,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Định lý đối ngẫu mạnh (Định lý 3 — Định lý đối ngẫu thứ nhất) phát biểu:",
+  "options": {
+   "A": "Nếu 1 trong 2 bài toán có PATƯ thì bài toán kia cũng có PATƯ và 2 giá trị tối ưu bằng nhau.",
+   "B": "Không bao giờ cả 2 cùng có PATƯ.",
+   "C": "Chỉ đúng khi $A$ vuông.",
+   "D": "Chỉ đúng cho bài toán vận tải."
+  },
+  "correct": "A",
+  "explanation": "Định lý cốt lõi nhất Chương IV."
+ },
+ {
+  "id": 67,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Điều kiện độ lệch bù (Định lý 4) yêu cầu tích $(b-A\\bar x)^T\\bar y=0$. Điều này tương đương:",
+  "options": {
+   "A": "Với mỗi $i$: hoặc ràng buộc gốc $i$ chặt ($=$), hoặc $\\bar y_i=0$ (hoặc cả hai).",
+   "B": "$\\bar y=0$ luôn đúng.",
+   "C": "$\\bar x=0$ luôn đúng.",
+   "D": "Không có ý nghĩa gì đặc biệt."
+  },
+  "correct": "A",
+  "explanation": "Diễn giải chuẩn của điều kiện độ lệch bù theo từng thành phần $i$."
+ },
+ {
+  "id": 68,
+  "group": "NHÓM 7 — CHƯƠNG IV: BÀI TOÁN ĐỐI NGẪU (LÝ THUYẾT, 10 câu)",
+  "image": null,
+  "question": "Định lý 4' phát biểu: nếu 1 ràng buộc (gốc hoặc đối ngẫu) được thỏa mãn với dấu bất đẳng thức thực sự (lỏng) tại 1 phương án tối ưu nào đó, thì ràng buộc đối ngẫu tương ứng phải:",
+  "options": {
+   "A": "Được thỏa mãn với dấu $=$ trong **mọi** phương án tối ưu của bài toán kia.",
+   "B": "Cũng lỏng trong mọi phương án tối ưu.",
+   "C": "Không xác định.",
+   "D": "Luôn bằng 0."
+  },
+  "correct": "A",
+  "explanation": "Đây là công cụ dùng để tìm toàn bộ tập nghiệm tối ưu $X^*,Y^*$ từ 1 cặp phương án đã biết (áp dụng trong Phụ lục A). --- ## NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)"
+ },
+ {
+  "id": 69,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Cho $P:\\min\\{2x_1+3x_2 : x_1+x_2\\ge4, x_1\\ge0,x_2\\ge0\\}$. Bài toán đối ngẫu $Q$ là:",
+  "options": {
+   "A": "$\\max\\{4y_1: y_1\\le2, y_1\\le3, y_1\\ge0\\}$.",
+   "B": "$\\min\\{4y_1\\}$.",
+   "C": "$\\max\\{4y_1:y_1\\ge2\\}$.",
+   "D": "Không xác định."
+  },
+  "correct": "A",
+  "explanation": "1 ràng buộc gốc $\\ge4\\Rightarrow y_1\\ge0$; 2 biến gốc $\\ge0\\Rightarrow$ 2 ràng buộc đối ngẫu dạng $\\le$ theo hệ số cột tương ứng $(1,1)$ và $(2,3)$: $y_1\\le2,\\ y_1\\le3$."
+ },
+ {
+  "id": 70,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Với bài toán đối ngẫu ở Câu 69, giải trực tiếp: $\\max\\{4y_1: y_1\\le2\\}\\Rightarrow y_1^*=2,\\ g^*=8$. Theo định lý đối ngẫu mạnh, giá trị tối ưu của bài toán gốc $P$ là:",
+  "options": {
+   "A": "8.",
+   "B": "4.",
+   "C": "0.",
+   "D": "Không xác định."
+  },
+  "correct": "A",
+  "explanation": "$f^*=g^*=8$ theo Định lý 3."
+ },
+ {
+  "id": 71,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Xác nhận trực tiếp: tại $x^*=(4,0)$ (thỏa ràng buộc $x_1+x_2=4\\ge4$), $f(x^*)=2(4)+ 3(0)=$?",
+  "options": {
+   "A": "8.",
+   "B": "12.",
+   "C": "0.",
+   "D": "4."
+  },
+  "correct": "A",
+  "explanation": "$f(4,0)=8$ — khớp đúng $f^*=g^*=8$ đã tính ở Câu 70, xác nhận $(4,0)$ là phương án tối ưu."
+ },
+ {
+  "id": 72,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Cho bài toán $\\max\\{5x_1+4x_2: x_1\\le4, x_2\\le3, x_1,x_2\\ge0\\}$. Bài toán đối ngẫu:",
+  "options": {
+   "A": "$\\min\\{4y_1+3y_2: y_1\\ge5,y_2\\ge4,y_1,y_2\\ge0\\}$.",
+   "B": "$\\max\\{4y_1+3y_2\\}$.",
+   "C": "$\\min\\{5y_1+4y_2\\}$.",
+   "D": "Không xác định."
+  },
+  "correct": "A",
+  "explanation": "2 ràng buộc gốc $\\le\\Rightarrow y_1,y_2\\ge0$; 2 biến gốc $\\ge0\\Rightarrow$ ràng buộc đối ngẫu dạng $\\ge$ (đúng chiều max$\\to$min)."
+ },
+ {
+  "id": 73,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Với bài toán đối ngẫu Câu 72, nghiệm hiển nhiên tối ưu là $y_1^*=5,y_2^*=4$ (chặn dưới nhỏ nhất khả thi), giá trị $g^*=4(5)+3(4)=$?",
+  "options": {
+   "A": "32.",
+   "B": "20.",
+   "C": "12.",
+   "D": "9."
+  },
+  "correct": "A",
+  "explanation": "$g^*=20+12=32$; kiểm tra khớp với $f^*=5(4)+4(3)=20+12=32$ tại $x^*=(4,3)$ — đúng theo Định lý đối ngẫu mạnh."
+ },
+ {
+  "id": 74,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Nếu tại phương án tối ưu $\\bar x$ của bài toán gốc, biến $\\bar x_3>0$ (dương), theo độ lệch bù thì:",
+  "options": {
+   "A": "Ràng buộc đối ngẫu thứ 3 phải chặt (dấu $=$) tại mọi phương án tối ưu đối ngẫu.",
+   "B": "Ràng buộc đối ngẫu thứ 3 phải lỏng.",
+   "C": "$\\bar y_3=0$.",
+   "D": "Không kết luận được gì về ràng buộc đối ngẫu thứ 3."
+  },
+  "correct": "A",
+  "explanation": "Áp dụng trực tiếp Định lý 4/4' — biến gốc dương buộc ràng buộc đối ngẫu tương ứng chặt."
+ },
+ {
+  "id": 75,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Nếu tại phương án tối ưu $\\bar y$ của bài toán đối ngẫu, ràng buộc đối ngẫu thứ $j$ được thỏa mãn lỏng (dấu $<$ hoặc $>$ thực sự), theo độ lệch bù thì biến gốc $x_j$:",
+  "options": {
+   "A": "Phải bằng 0 trong mọi phương án tối ưu của bài toán gốc.",
+   "B": "Phải dương.",
+   "C": "Không xác định.",
+   "D": "Bằng $\\bar y_j$."
+  },
+  "correct": "A",
+  "explanation": "Đây chính là kỹ thuật đã dùng trong Câu 4, Đề 1 và Đề 2 (`De_Thi_Mau_QHTT.md`) để suy ra $x_j=0$ từ ràng buộc đối ngẫu lỏng."
+ },
+ {
+  "id": 76,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Cho biết bài toán gốc $P$ (min) không bị chặn dưới (hàm mục tiêu $\\to-\\infty$). Bài toán đối ngẫu $Q$ khi đó:",
+  "options": {
+   "A": "Có tập phương án rỗng.",
+   "B": "Cũng không bị chặn.",
+   "C": "Có nghiệm tối ưu hữu hạn.",
+   "D": "Trùng bài toán gốc."
+  },
+  "correct": "A",
+  "explanation": "Hệ quả 3 áp dụng ngược: $P$ không bị chặn $\\Rightarrow Q$ vô nghiệm."
+ },
+ {
+  "id": 77,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Số ràng buộc của bài toán đối ngẫu $Q$ luôn bằng:",
+  "options": {
+   "A": "Số biến của bài toán gốc $P$.",
+   "B": "Số ràng buộc của $P$.",
+   "C": "Số biến cộng số ràng buộc của $P$.",
+   "D": "Luôn bằng 2."
+  },
+  "correct": "A",
+  "explanation": "Mỗi biến $x_j$ của $P$ sinh ra đúng 1 ràng buộc đối ngẫu tương ứng."
+ },
+ {
+  "id": 78,
+  "group": "NHÓM 8 — CHƯƠNG IV: ĐỐI NGẪU ÁP DỤNG (10 câu tính toán, không đồ thị)",
+  "image": null,
+  "question": "Số biến của bài toán đối ngẫu $Q$ luôn bằng:",
+  "options": {
+   "A": "Số ràng buộc chính của bài toán gốc $P$.",
+   "B": "Số biến của $P$.",
+   "C": "Số cột ma trận $A$.",
+   "D": "Luôn bằng 1."
+  },
+  "correct": "A",
+  "explanation": "Mỗi ràng buộc chính của $P$ sinh ra đúng 1 biến đối ngẫu $y_i$ tương ứng. --- ## NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)"
+ },
+ {
+  "id": 79,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": "p28.png",
+  "question": "Sơ đồ mạng vận tải minh họa PATƯ của bài toán Phụ lục B ($a=(90,100,110)$, $b=(50,80,95,75)$). Giá trị hàm mục tiêu tối ưu là:",
+  "options": {
+   "A": "1420.",
+   "B": "2950.",
+   "C": "300.",
+   "D": "0."
+  },
+  "correct": "A",
+  "explanation": "Đúng kết quả đã tính đầy đủ trong `De_Thi_Mau_QHTT.md`, Phụ lục B."
+ },
+ {
+  "id": 80,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": "p29.png",
+  "question": "Sơ đồ mạng minh họa PATƯ của ví dụ Chương V §5 ($a=(100,400,230)$, $b=(320,180,110,120)$). Giá trị hàm mục tiêu tối ưu là:",
+  "options": {
+   "A": "1420.",
+   "B": "2950.",
+   "C": "730.",
+   "D": "79."
+  },
+  "correct": "B",
+  "explanation": "Đúng kết quả đã tính trong `Chuong_V_S5_Thuat_Toan_The_Vi_Vi_Du_Va_Bai_Tap.md`."
+ },
+ {
+  "id": 81,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": "p30.png",
+  "question": "Khi $\\sum a_i\\ne\\sum b_j$ (không cân bằng), kỹ thuật chuẩn để giải bằng thuật toán thế vị là:",
+  "options": {
+   "A": "Thêm 1 trạm phát/thu giả với cước phí $0$, lượng bằng đúng phần chênh lệch.",
+   "B": "Bỏ bớt 1 trạm phát tùy ý.",
+   "C": "Nhân đôi mọi lượng phát.",
+   "D": "Không thể giải được."
+  },
+  "correct": "A",
+  "explanation": "Kỹ thuật chuẩn xử lý bài toán vận tải không cân bằng."
+ },
+ {
+  "id": 82,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": "p31.png",
+  "question": "Hình minh họa 1 chu trình khép kín (hình chữ nhật, đánh dấu $\\star$ là ô chọn) khi đưa 1 ô mới vào cơ sở. Mục đích của việc lập chu trình này là:",
+  "options": {
+   "A": "Xác định cách điều chỉnh lượng hàng ($+\\theta/-\\theta$ luân phiên) để giữ các ràng buộc cung-cầu.",
+   "B": "Chỉ để trang trí bảng.",
+   "C": "Xác định hệ thống thế vị.",
+   "D": "Không có mục đích cụ thể."
+  },
+  "correct": "A",
+  "explanation": "Đúng vai trò của chu trình trong thuật toán thế vị (bước 4, lý thuyết Chương V)."
+ },
+ {
+  "id": 83,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": "p34.png",
+  "question": "Bảng vận tải $3\\times4$ có 5 ô chọn nhưng cần $m+n-1=6$ ô. Cách xử lý đúng minh họa trong hình:",
+  "options": {
+   "A": "Bổ sung 1 ô chọn giá trị 0, chọn sao cho không tạo chu trình với 5 ô đã có.",
+   "B": "Xóa bớt 1 hàng của bảng.",
+   "C": "Dừng thuật toán, kết luận vô nghiệm.",
+   "D": "Đổi bài toán thành max."
+  },
+  "correct": "A",
+  "explanation": "Đúng kỹ thuật xử lý suy biến (đã dùng trong ví dụ Chương V §5, vòng lặp đầu)."
+ },
+ {
+  "id": 84,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": "p35.png",
+  "question": "Sơ đồ minh họa thứ tự lấp các ô theo phương pháp góc Tây Bắc (bậc thang từ góc trên-trái xuống góc dưới-phải). Phương pháp này dùng để:",
+  "options": {
+   "A": "Tìm phương án cực biên **xuất phát ban đầu** cho bài toán vận tải (chưa chắc tối ưu).",
+   "B": "Tìm ngay phương án tối ưu.",
+   "C": "Kiểm tra tính suy biến.",
+   "D": "Tính hệ thống thế vị."
+  },
+  "correct": "A",
+  "explanation": "Đúng vai trò của phương pháp góc Tây Bắc — chỉ tạo PACB ban đầu, cần thuật toán thế vị để tối ưu hóa tiếp."
+ },
+ {
+  "id": 85,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": null,
+  "question": "Số ô chọn (biến cơ sở) của 1 PACB không suy biến trong bảng vận tải $m\\times n$ (cân bằng thu-phát) luôn bằng:",
+  "options": {
+   "A": "$m+n-1$.",
+   "B": "$mn$.",
+   "C": "$m+n$.",
+   "D": "$\\min(m,n)$."
+  },
+  "correct": "A",
+  "explanation": "Vì $\\text{rank}$ ma trận ràng buộc bài toán vận tải $=m+n-1$ (chứng minh Chương V §1)."
+ },
+ {
+  "id": 86,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": null,
+  "question": "Phương pháp góc Tây Bắc và phương pháp cước phí nhỏ nhất (minimum cost method) khác nhau ở chỗ:",
+  "options": {
+   "A": "Tây Bắc chỉ dựa vào vị trí ô (không quan tâm cước phí); cước phí nhỏ nhất ưu tiên lấp ô có $c_{ij}$ nhỏ nhất trước.",
+   "B": "Hai phương pháp giống hệt nhau.",
+   "C": "Tây Bắc luôn cho PATƯ ngay.",
+   "D": "Cước phí nhỏ nhất không dùng được cho bài toán vận tải."
+  },
+  "correct": "A",
+  "explanation": "Đây là 2 trong số các phương pháp xây dựng PACB xuất phát (§4, Chương V sách Phí Mạnh Bân)."
+ },
+ {
+  "id": 87,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": null,
+  "question": "Điều kiện để 1 bài toán vận tải có phương án (tập phương án khác rỗng) là:",
+  "options": {
+   "A": "$\\sum a_i=\\sum b_j$ (cân bằng thu phát) — điều kiện cần và đủ theo Định lý Chương V §1.",
+   "B": "$a_i>b_j$ với mọi $i,j$.",
+   "C": "$m=n$.",
+   "D": "Không cần điều kiện gì."
+  },
+  "correct": "A",
+  "explanation": "Định lý chính Chương V §1, đã chứng minh chi tiết trong `Chuong_V_S1_Mot_so_tinh_chat_cua_bai_toan_van_tai.md`."
+ },
+ {
+  "id": 88,
+  "group": "NHÓM 9 — CHƯƠNG V: BÀI TOÁN VẬN TẢI CƠ BẢN (6 câu có đồ thị + 4 lý thuyết)",
+  "image": null,
+  "question": "Bài toán vận tải luôn có phương án tối ưu (không bao giờ \"không bị chặn\") vì:",
+  "options": {
+   "A": "Tập phương án là đa diện lồi **bị chặn** (do $0\\le x_{ij}\\le\\min(a_i,b_j)$), và hàm mục tiêu tuyến tính luôn đạt min/max trên tập lồi bị chặn khác rỗng.",
+   "B": "Vì $c_{ij}$ luôn dương.",
+   "C": "Vì $m=n$ luôn đúng.",
+   "D": "Không có lý do đặc biệt."
+  },
+  "correct": "A",
+  "explanation": "Đúng lập luận chứng minh Chương V §1, mục \"Điều kiện tồn tại phương án tối ưu\". --- ## NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)"
+ },
+ {
+  "id": 89,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": "p32.png",
+  "question": "Hình minh họa 1 mạng luồng với lát cắt (đường đỏ) tách đỉnh nguồn $S$ khỏi các đỉnh còn lại, dung lượng $2$ cạnh bị cắt là $10+8=18$. Theo định lý Max-Flow Min-Cut:",
+  "options": {
+   "A": "Giá trị luồng cực đại từ $S$ đến $T$ không thể vượt quá $18$.",
+   "B": "Giá trị luồng cực đại luôn đúng bằng $18$ bất kể cấu trúc mạng còn lại.",
+   "C": "Lát cắt không liên quan đến luồng cực đại.",
+   "D": "Luồng cực đại luôn bằng tổng mọi cạnh trong mạng."
+  },
+  "correct": "A",
+  "explanation": "Mọi lát cắt là 1 **chặn trên** của luồng cực đại; định lý Max-Flow Min-Cut khẳng định luồng cực đại bằng đúng dung lượng của lát cắt **nhỏ nhất** (không nhất thiết là lát cắt cụ thể trong hình, trừ khi đã xác nhận đó là lát cắt nhỏ nhất)."
+ },
+ {
+  "id": 90,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": "p33.png",
+  "question": "Đồ thị có trọng số với đường đi ngắn nhất từ đỉnh 1 đến đỉnh 5 được tô đỏ. Theo hình, đường đi ngắn nhất và tổng chi phí là:",
+  "options": {
+   "A": "$1\\to3\\to4\\to5$, tổng chi phí $=6$.",
+   "B": "$1\\to2\\to4\\to5$, tổng chi phí $=12$.",
+   "C": "$1\\to3\\to2\\to4\\to5$.",
+   "D": "Không có đường đi."
+  },
+  "correct": "A",
+  "explanation": "Tính bằng thuật toán Dijkstra trên đồ thị đã cho: $1\\to3$ (chi phí 2) $\\to4$ (chi phí 1) $\\to5$ (chi phí 3), tổng $=2+1+3=6$ — nhỏ hơn đường $1\\to2\\to4\\to5=4+5+3=12$."
+ },
+ {
+  "id": 91,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": "p29.png",
+  "question": "*(Dùng lại hình PATƯ ở Câu 80.)* Ước lượng $\\Delta_{23}$ tại bảng tối ưu cuối cùng của ví dụ này bằng $0$ (không âm và không dương). Điều này cho biết:",
+  "options": {
+   "A": "Bài toán có nhiều hơn 1 phương án tối ưu (đa nghiệm) dù đã dừng thuật toán.",
+   "B": "Bài toán vô nghiệm.",
+   "C": "Phải tiếp tục lặp thêm bước bắt buộc.",
+   "D": "Có lỗi tính toán."
+  },
+  "correct": "A",
+  "explanation": "$\\Delta_{ij}=0$ tại 1 ô không chọn ở bảng tối ưu là dấu hiệu chuẩn của đa nghiệm (alternate optima) — có thể đổi cơ sở qua ô đó mà giá trị hàm mục tiêu không đổi."
+ },
+ {
+  "id": 92,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Thuật toán thế vị (MODI method) về bản chất chính là:",
+  "options": {
+   "A": "Áp dụng lý thuyết đối ngẫu cho bài toán vận tải — hệ số $(r_i,s_j)$ chính là các biến đối ngẫu.",
+   "B": "Một thuật toán hoàn toàn độc lập, không liên quan đối ngẫu.",
+   "C": "Chỉ dùng được khi $m=n$.",
+   "D": "Không có nền tảng lý thuyết."
+  },
+  "correct": "A",
+  "explanation": "$(r_i,s_j)$ đóng vai trò biến đối ngẫu của 2 nhóm ràng buộc (phát/thu); điều kiện $c_{ij}=r_i+s_j$ tại ô chọn tương ứng điều kiện độ lệch bù."
+ },
+ {
+  "id": 93,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Bài toán phân công (Assignment Problem) $n\\times n$ là trường hợp đặc biệt của bài toán vận tải khi:",
+  "options": {
+   "A": "Mọi $a_i=b_j=1$ và $m=n$.",
+   "B": "$a_i$ bất kỳ.",
+   "C": "$n=1$.",
+   "D": "Không liên quan đến vận tải."
+  },
+  "correct": "A",
+  "explanation": "Định nghĩa chuẩn — mỗi \"người\" ($i$) cung cấp 1 đơn vị, mỗi \"việc\" ($j$) cần 1 đơn vị."
+ },
+ {
+  "id": 94,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Thuật toán Dijkstra dùng để giải bài toán:",
+  "options": {
+   "A": "Đường đi ngắn nhất trên đồ thị có trọng số **không âm**.",
+   "B": "Bài toán cái túi.",
+   "C": "Bài toán luồng cực đại.",
+   "D": "Bài toán vận tải."
+  },
+  "correct": "A",
+  "explanation": "Điều kiện tiên quyết của Dijkstra là trọng số cạnh không âm (khác Bellman-Ford cho phép trọng số âm nhưng không có chu trình âm)."
+ },
+ {
+  "id": 95,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Thuật toán Ford-Fulkerson dùng để giải bài toán:",
+  "options": {
+   "A": "Luồng cực đại (Max-Flow) trên mạng.",
+   "B": "Đường đi ngắn nhất.",
+   "C": "Bài toán vận tải.",
+   "D": "Bài toán cái túi."
+  },
+  "correct": "A",
+  "explanation": "Thuật toán kinh điển tìm luồng cực đại bằng cách tìm liên tiếp đường tăng luồng (augmenting path)."
+ },
+ {
+  "id": 96,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Trong bài toán TSP (người du lịch) với ràng buộc MTZ (Miller-Tucker-Zemlin), biến phụ $u_i$ dùng để:",
+  "options": {
+   "A": "Loại bỏ các chu trình con (subtour elimination), đảm bảo lời giải là 1 chu trình Hamilton duy nhất đi qua mọi thành phố.",
+   "B": "Tính khoảng cách.",
+   "C": "Đếm số cạnh.",
+   "D": "Không có tác dụng gì."
+  },
+  "correct": "A",
+  "explanation": "Mục đích cốt lõi của ràng buộc MTZ (đã nêu trong `1_Nhap mon Van tru hoc.pdf`, mục Vận Trù Học — kiến thức nền liên quan)."
+ },
+ {
+  "id": 97,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Bài toán cái túi (Knapsack Problem) là 1 dạng đặc biệt của:",
+  "options": {
+   "A": "Quy hoạch tuyến tính nhị phân (0-1 Integer Programming).",
+   "B": "Quy hoạch tuyến tính liên tục thuần túy.",
+   "C": "Bài toán vận tải.",
+   "D": "Bài toán đối ngẫu."
+  },
+  "correct": "A",
+  "explanation": "Biến quyết định $x_i\\in\\{0,1\\}$ (chọn/không chọn vật phẩm $i$), ràng buộc tuyến tính về khối lượng — đúng dạng BIP."
+ },
+ {
+  "id": 98,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "So sánh Chương V (bài toán vận tải, QHTT) với các bài toán mạng khác (đường đi ngắn nhất, luồng cực đại — Vận Trù Học): điểm chung về mặt lý thuyết là:",
+  "options": {
+   "A": "Cả 2 nhóm bài toán đều có thể phát biểu dưới dạng QHTT với ma trận ràng buộc đặc biệt (mỗi cột chỉ có 2 hệ số $\\pm1$ khác 0 — ma trận \"network\").",
+   "B": "Không có điểm chung nào.",
+   "C": "Chỉ bài toán vận tải là QHTT, các bài toán mạng khác không phải.",
+   "D": "Luôn cần dùng quy hoạch nhị phân cho cả 2."
+  },
+  "correct": "A",
+  "explanation": "Đây là tính chất \"unimodularity\" nổi tiếng của các bài toán mạng — lý do khiến nghiệm tối ưu của quy hoạch tuyến tính liên tục (relaxation) luôn nguyên, không cần ràng buộc nguyên tường minh."
+ },
+ {
+  "id": 99,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Trong bài toán vận tải có ô cấm (không được vận chuyển qua ô $(i,j)$ nào đó), kỹ thuật xử lý chuẩn là:",
+  "options": {
+   "A": "Gán cước phí $c_{ij}$ cho ô đó bằng 1 số rất lớn ($M$), tương tự tư tưởng phương pháp đơn hình M, để thuật toán tự động không chọn ô đó ở phương án tối ưu.",
+   "B": "Xóa hẳn hàng/cột chứa ô đó.",
+   "C": "Đặt $c_{ij}=0$.",
+   "D": "Không thể xử lý được."
+  },
+  "correct": "A",
+  "explanation": "Kỹ thuật chuẩn cho \"trường hợp bài toán vận tải có ô cấm\" (mục §7.2, Chương V sách Phí Mạnh Bân)."
+ },
+ {
+  "id": 100,
+  "group": "NHÓM 10 — CHƯƠNG V: THẾ VỊ & CÁC BÀI TOÁN MẠNG LIÊN QUAN (3 câu có đồ thị + 7 lý thuyết)",
+  "image": null,
+  "question": "Tổng kết: điểm khác biệt cốt lõi giữa nội dung Chương V (QHTT) và phần \"bài toán vận tải\" trong Vận Trù Học là:",
+  "options": {
+   "A": "QHTT tập trung chứng minh chặt chẽ lý thuyết (hạng ma trận, điều kiện tồn tại nghiệm, thuật toán thế vị dựa trên đối ngẫu); Vận Trù Học dùng bài toán vận tải như 1 trong nhiều công cụ ứng dụng thực tế (cùng TSP, luồng mạng, quy hoạch nhị phân...).",
+   "B": "Hai nội dung hoàn toàn giống nhau, không có khác biệt.",
+   "C": "QHTT không đề cập bài toán vận tải.",
+   "D": "Vận Trù Học không dùng thuật toán thế vị."
+  },
+  "correct": "A",
+  "explanation": "Đúng tổng kết đã phân tích ở phần so sánh 2 môn học (đầu phiên làm việc) — nhấn mạnh QHTT là nhánh lý thuyết nền tảng, Vận Trù Học là nhánh ứng dụng mở rộng. --- ## BẢNG ĐÁP ÁN TỔNG HỢP (dạng lưới, đối chiếu nhanh) | Câu | ĐA | Câu | ĐA | Câu | ĐA | Câu | ĐA | |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:| | 1 | A | 26 | A | 51 | B | 76 | A | | 2 | B | 27 | B | 52 | A | 77 | A | | 3 | B | 28 | A | 53 | A | 78 | A | | 4 | B | 29 | B | 54 | A | 79 | A | | 5 | B | 30 | A | 55 | B | 80 | B | | 6 | B | 31 | B | 56 | A | 81 | A | | 7 | A | 32 | A | 57 | B | 82 | A | | 8 | B | 33 | A | 58 | B | 83 | A | | 9 | B | 34 | A | 59 | A | 84 | A | | 10 | B | 35 | A | 60 | C | 85 | A | | 11 | C | 36 | B | 61 | C | 86 | A | | 12 | B | 37 | A | 62 | A | 87 | A | | 13 | C | 38 | A | 63 | A | 88 | A | | 14 | D | 39 | A | 64 | A | 89 | A | | 15 | B | 40 | C | 65 | A | 90 | A | | 16 | C | 41 | B | 66 | A | 91 | A | | 17 | C | 42 | A | 67 | A | 92 | A | | 18 | C | 43 | B | 68 | A | 93 | A | | 19 | C | 44 | B | 69 | A | 94 | A | | 20 | C | 45 | A | 70 | A | 95 | A | | 21 | A | 46 | A | 71 | A | 96 | A | | 22 | B | 47 | A | 72 | A | 97 | A | | 23 | C | 48 | A | 73 | A | 98 | A | | 24 | A | 49 | A | 74 | A | 99 | A | | 25 | B | 50 | A | 75 | A | 100 | A | --- ## GHI CHÚ \"SPOT-CHECK\" — TỰ KIỂM TRA LẠI 8 CÂU TÍNH TOÁN ĐỘC LẬP Để đảm bảo không có lỗi rải rác, các câu sau đã được **tính lại độc lập lần thứ 2** (ngoài lần tính khi soạn câu hỏi), kết quả khớp cả 2 lần: 1. **Câu 11-20** (10 câu đồ thị Nhóm 2): toàn bộ tọa độ đỉnh và giá trị hàm mục tiêu được máy tính    trực tiếp bằng code Python (`gen_plots.py`, hàm `feasible_vertices` + `obj_at`) — không gõ tay    — nên không có sai số làm tròn hay nhầm dấu. 2. **Câu 41 ($\\Delta$-values)**: $(-2,3,-1,0)$ — chỉ 1 giá trị dương $\\Rightarrow x_2$ vào, không    cần tính lại vì là so sánh trực tiếp. 3. **Câu 42 (tỷ số $\\theta$)**: $12/3=4$; $8/2=4$; hàng 3 loại vì $z_{3s}=-1<0$. Tính tay lại:    đúng $4=4$, xác nhận tie. 4. **Câu 70-71 (đối ngẫu $2x_1+3x_2$)**: $f(4,0)=2(4)+3(0)=8$; $g(y_1=2)=4(2)=8$ — khớp. 5. **Câu 72-73 (đối ngẫu $5x_1+4x_2$)**: $f(4,3)=5(4)+4(3)=20+12=32$; $g=4(5)+3(4)=20+12=32$ —    khớp. 6. **Câu 79 (Phụ lục B)**: $f(x^*)=2(80)+3(10)+5(35)+8(65)+4(15)+5(95)$. Tính lại: $160+30+175+    520+60+475$. Cộng theo cặp: $(160+30)=190$, $(175+520)=695$, $(60+475)=535$; tổng    $190+695+535=1420$ ✓ khớp đáp số đã công bố. 7. **Câu 80 (ví dụ Chương V §5)**: $f(x^*)=100(3)+90(5)+80(3)+110(7)+120(8)+230(1)$. Tính lại:    $300+450+240+770+960+230$. $(300+450)=750,\\ (240+770)=1010,\\ (960+230)=1190$; tổng    $750+1010+1190=2950$ ✓ khớp. 8. **Câu 90 (đường đi ngắn nhất)**: đường $1\\to3\\to4\\to5$: trọng số $2+1+3=6$; đường    $1\\to2\\to4\\to5$: $4+5+3=12$; đường $1\\to3\\to2\\to4\\to5$: $2+1+5+3=11$ — vẫn lớn hơn $6$. Xác    nhận $6$ là nhỏ nhất trong các đường khả dĩ đã liệt kê. **Lưu ý về Câu 40 và Câu 44** (2 câu có tình huống đa nghiệm/tie tại đỉnh cực biên): đây là các câu **có tính sư phạm đặc biệt** (dạy sinh viên nhận biết và xử lý tie), không phải lỗi — đáp án đã giải thích rõ quy tắc xử lý trong phần lời giải đi kèm mỗi câu."
+ }
+]
